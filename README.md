@@ -18,5 +18,28 @@
 - The following APIs could be tested with Postman or a similar tool.
 
 - GET `/wallets` - Get wallet balance
-- POST `/wallets` - Load wallet (with 3000 BTC)
+- PATCH `/wallets` - Load wallet (with 3000 BTC)
 
+- POST `/trips` - take trips trying the following locations below
+
+```
+{ 
+  "startLocation": "abuja", 
+  "destination": "moon", 
+  "spaceCraft": "falcon9" 
+}
+```
+```
+{ 
+  "startLocation": "abuja", 
+  "destination": "mars", 
+  "spaceCraft": "falcon9" 
+}
+```
+```
+{ 
+  "startLocation": "moon", 
+  "destination": "mars", 
+  "spaceCraft": "falcon1" 
+}
+```
